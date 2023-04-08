@@ -1,0 +1,168 @@
+abstract class
+An abstract class is a class of which instances cannot be created directly. Abstract classes are abstract types.
+abstract data type
+An abstract data type is a model to represent a class of data structures that have similar behavior. Abstract data types are defined by the operations that can be performed on them and by mathematical constraints of these operations rather than by the implementation and the way the data is stored in the memory of the computer.
+abstract type
+An abstract type is a type of data of which instances cannot be created directly.
+actual parameter
+See argument.
+additive inverse
+The additive inverse of a number is the number that, when added to that number, yields zero. For example, the additive inverse of 42 is -42.
+arithmetic negation
+Arithmetic negation is the operation that produces the additive inverse of a number.
+arithmetic operation
+An arithmetic operation is an operation whose operands are numbers.
+arity
+The arity of an operation or of a function is the number of operands or arguments the operation or function accepts.
+argument
+An argument is a value passed to a function.
+array
+An array is a data structure consisting of a collection of values, each identified by at least one array index or key.
+associative array
+An associative array is an abstract data type composed of a collection of pairs of keys and values, such that each possible key appears at most once in the collection.
+augmented assignment
+Augmented assignment is a type of assignment that gives a variable a value that is relative to its prior value.
+binary operation
+A binary operation is an operation of which the arity is two.
+boolean
+See logical data.
+boolean negation
+See logical negation.
+chained assignment
+Chained assignment is a type of assignment that gives a single value to many variables. Example: a = b = c = d = 0.
+chunk
+A chunk is a sequence of statements.
+compound assignment
+See augmented assignment.
+concatenation
+String concatenation is the operation of joining two strings of characters. For example, the concatenation of "snow" and "ball" is "snowball".
+concrete class
+A concrete class is a class of which instances can be created directly. Concrete classes are concrete types.
+concrete type
+A concrete type is a type of which instances can be created directly.
+condition
+A condition is a predicate that is used in a conditional statement or as an operand to the conditional operator. Conditions, in Lua, are considered as true when their expression evaluates to a value other than nil or false, and are considered as false otherwise.
+conditional operator
+A conditional operator is an operator that returns a value if a condition is true and another if it isn't.
+conditional statement
+A conditional statement is a statement that executes a piece of code if a condition is true.
+data structure
+A data structure is a particular way of storing and organizing data in the memory of a computer. It is the implementation of an abstract data type.
+data type
+A data type is a model for representing the storage of data in the memory of a computer.
+dictionary
+See associative array.
+exclusive disjunction
+
+
+
+
+
+\scriptstyle a\veebar b
+The exclusive disjunction operation is a binary operation that produces the value true when one of its operands is true but the other is not. The exclusive disjunction of a and b is expressed mathematically as 
+
+
+
+\scriptstyle a\veebar b. There is no operator corresponding to exclusive disjunction in Lua, but 
+
+
+
+\scriptstyle a\veebar b can be represented as (a or b) and not (a and b).
+formal parameter
+See parameter.
+function
+A function is a sequence of statements (instructions) that perform a specific task. Functions can be used in a program wherever that particular task needs to be performed. Functions are usually defined in the program that will use them, but are sometimes defined in libraries that can be used by other programs.
+hash map
+See hash table.
+hash table
+A hash table is an implementation as a data structure of the associative array. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the value corresponding to the index can be found.
+inline if
+See conditional operator.
+integer
+An integer is a number that can be written without a fractional or decimal component. Integers are implemented in Lua in the same way as other numbers.
+length operation
+The length operation is the operation that produces the number of values in an array.
+literal
+A literal is a notation for representing a fixed value in source code. All values can be represented as literals in Lua except threads and userdata.
+logical complement
+The logical complement of a boolean value is the boolean value that is not that value. This means the logical complement of true is false and vice versa.
+logical conjunction
+
+Venn diagram of 
+�
+∧
+�
+{\displaystyle \scriptstyle a\land b}
+The logical conjunction operation is a binary operation that produces the value true when both of its operands are true and false in all other cases. It is implemented as the and operator in Lua and it returns its first operand if it is false or nil and the second operand otherwise. The logical conjunction of a and b is expressed mathematically as 
+�
+∧
+�
+{\displaystyle \scriptstyle a\land b}.
+logical data
+The logical data type, which is generally called the boolean type, is the type of the values false and true.
+logical disjunction
+
+
+
+
+{\displaystyle \scriptstyle a\lor b}
+The logical disjunction operation is a binary operation that produces the value false when both of its operands are false and true in all other cases. It is implemented as the or operator in Lua and it returns the first operand if it is neither false nor nil and the second otherwise. The logical disjunction of a and b is expressed mathematically as 
+
+
+
+{\displaystyle \scriptstyle a\lor b}.
+logical negation
+Logical negation, implemented in Lua by the not operator, is the operation that produces the logical complement of a boolean value.
+map
+See associative array.
+method
+A method is a function that is a member of an object and generally operates on that object.
+modulo
+See modulo operation.
+modulo operation
+The modulo operation, implemented in Lua by the % operator, is the operation that produces the remainder of the division of a number by another.
+modulus
+See modulo operation.
+multiple assignment
+See parallel assignment.
+nil
+The type nil is the type of the value nil, whose main property is to be different from any other value; it usually represents the absence of a useful value.
+not operator
+See logical negation.
+number
+The number type represents real (double-precision floating-point) numbers. It is possible to build Lua interpreters that use other internal representations for numbers, such as single-precision float or long integers.
+operator
+An operator is a token that generates a value from one or many operands.
+parallel assignment
+Parallel assignment is a type of assignment that simultaneously assigns values to different variables.
+parameter
+A parameter is a variable in a function definition to which the argument that corresponds to it in a call to that function is assigned.
+predicate
+A predicate is an expression that evaluates to a piece of logical data.
+procedure
+See function.
+relational operator
+A relational operator is an operator that is used to compare values.
+routine
+See function.
+sign change
+See arithmetic negation.
+simultaneous assignment
+See parallel assignment.
+string
+The type string represents arrays of characters. Lua is 8-bit clean: strings can contain any 8-bit character, including embedded zeros.
+string literal
+A string literal is the representation of a string value within the source code of a computer program. With respect to syntax, a string literal is an expression that evaluates to a string.
+subprogram
+See function.
+subroutine
+See function.
+symbol
+See token.
+symbol table
+A symbol table is an implementation as a data structure of the associative array. They are commonly implemented as hash tables.
+token
+A token is an atomic piece of data, such as a word in a human language or such as a keyword in a programming language, for which a meaning may be inferred during parsing.
+variable
+A variable is a label associated to a location in the memory. The data in that location can be changed and the variable will point to the new data.
+variadic function
